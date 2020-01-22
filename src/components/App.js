@@ -1,7 +1,12 @@
 import React from "react";
+import SongList from "./SongList";
 
 export default class App extends React.Component {
   render() {
-    return <div>Hi from App</div>;
+    return (
+      <div>
+        <SongList />
+      </div>
+    );
   }
 }
