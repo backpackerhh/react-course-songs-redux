@@ -1,5 +1,7 @@
 import React from "react";
+
 import SongList from "./SongList";
+import SongDetail from "./SongDetail";
 
 export default class App extends React.Component {
   render() {
@@ -8,6 +10,9 @@ export default class App extends React.Component {
         <div className="ui row">
           <div className="column eight wide">
             <SongList />
+          </div>
+          <div className="column eight wide">
+            <SongDetail />
           </div>
         </div>
       </div>
